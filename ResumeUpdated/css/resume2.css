@@ -1,0 +1,68 @@
+.para{
+    margin-left: 100px;
+}
+.resume{
+    border: 2px solid black;
+}
+
+.gender{
+    margin-left: 30px;
+}
+
+.language{
+    margin-left: 30px;
+}
+
+.commonFont{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#show{
+    display: none;
+}
+#showInformation{
+    display: block;
+}
+
+#nameErrorDiv{
+    color: red;
+}
+#fatherNameErrorDiv{
+    color: red;
+}
+
+
+#stateErrorDiv{
+    color: red;
+}
+#emailErrorDiv{
+    color: red;
+}
+#ageErrorDiv{
+    color: red;
+}
+#contactErrorDiv{
+    color: red;
+}
+#nationalityErrorDiv{
+    color: red;
+}
+
+#maritalStatusErrorDiv{
+    color: red;
+}
+#tenthErrorDiv{
+    color: red;
+}
+
+#twelthErrorDiv{
+    color: red;
+}
+#graduationErrorDiv{
+    color: red;
+}
+
+#genderErrorDiv{
+    color: red;
+}
