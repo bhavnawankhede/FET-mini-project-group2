@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "name": "Bhavana",
+      "email": "bhavana@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "John",
+      "email": "john@abc.com",
+      "password": "nnn",
+      "id": 3
+    },
+    {
+      "name": "Arjun",
+      "email": "arjun@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Bhavana",
+      "email": "vhgch@gf",
+      "password": "66776",
+      "id": 5
+    },
+    {
+      "name": "kjbjyhvh",
+      "email": "hvjhg",
+      "password": "uybgjy",
+      "id": 6
+    },
+    {
+      "name": "vhgv",
+      "email": "hvjg",
+      "password": "kjbjhv",
+      "id": 7
+    },
+    {
+      "name": "fgf",
+      "email": "dfb",
+      "password": "bgb",
+      "id": 8
+    },
+    {
+      "name": "ashutosh",
+      "email": "ashutosh@gmail.com",
+      "password": "123",
+      "id": 9
+    }
+  ],
+  "userResume": [
+    {
+      "nameField": "jn",
+      "emailField": "",
+      "contactField": "",
+      "birthdayField": "",
+      "LanguagesField": "",
+      "tenthField": "",
+      "twelthField": "",
+      "graduationField": "",
+      "DesignationField": "",
+      "descriptionField": "",
+      "skillsField": "",
+      "id": 1
+    },
+    {
+      "nameField": "hjh",
+      "emailField": "mn",
+      "contactField": ",bn",
+      "birthdayField": "2022-02-15",
+      "LanguagesField": "bkhbb",
+      "tenthField": "56",
+      "twelthField": "76",
+      "graduationField": "67",
+      "DesignationField": "nbm",
+      "descriptionField": "h",
+      "skillsField": "bn",
+      "id": 2
+    },
+    {
+      "nameField": "BKU",
+      "emailField": "KHBKH",
+      "contactField": "BKH",
+      "birthdayField": "2022-02-10",
+      "LanguagesField": "JBKJ",
+      "tenthField": "8",
+      "twelthField": "8",
+      "graduationField": "8",
+      "DesignationField": "BV",
+      "descriptionField": "JBBM",
+      "skillsField": "BBNNN",
+      "id": 3
+    },
+    {
+      "nameField": "DSDV",
+      "emailField": "SDF",
+      "contactField": "FGF",
+      "birthdayField": "2022-02-14",
+      "LanguagesField": "FGFD",
+      "tenthField": "33",
+      "twelthField": "33",
+      "graduationField": "33",
+      "DesignationField": "VVVV",
+      "descriptionField": "VVVV",
+      "skillsField": "V3VV3V",
+      "id": 4
+    },
+    {
+      "nameField": "jhvhgk",
+      "emailField": "hbjh",
+      "contactField": "bjhb",
+      "birthdayField": "2022-02-16",
+      "LanguagesField": "mb bn ",
+      "tenthField": "55",
+      "twelthField": "66",
+      "graduationField": "66",
+      "DesignationField": "guyj",
+      "descriptionField": "jgthg",
+      "skillsField": "hvgjhv",
+      "id": 5
+    },
+    {
+      "nameField": "m jv hgn",
+      "emailField": "n jbv",
+      "contactField": "b jh ",
+      "birthdayField": "2022-02-16",
+      "LanguagesField": "jhbjh",
+      "tenthField": "22",
+      "twelthField": "2222",
+      "graduationField": "22",
+      "DesignationField": "bngbhjjhv",
+      "descriptionField": "hbjyh",
+      "skillsField": "b bnvhu",
+      "id": 6
+    },
+    {
+      "nameField": "fgd",
+      "emailField": "vf",
+      "contactField": "fdv",
+      "birthdayField": "2022-02-08",
+      "LanguagesField": "cvdfv",
+      "tenthField": "22",
+      "twelthField": "22",
+      "graduationField": "22",
+      "DesignationField": "vsfv",
+      "descriptionField": "vdfv",
+      "skillsField": "fvdfv",
+      "id": 7
+    },
+    {
+      "nameField": "hvjgh",
+      "emailField": "gbjh",
+      "contactField": "hgjyh",
+      "birthdayField": "2022-02-15",
+      "LanguagesField": "jhvgh",
+      "tenthField": "22",
+      "twelthField": "2222",
+      "graduationField": "22",
+      "DesignationField": "vvfvfv",
+      "descriptionField": "fvfvf",
+      "skillsField": "fdvdfv",
+      "id": 8
+    },
+    {
+      "nameField": "v",
+      "emailField": "fv",
+      "contactField": "dfv",
+      "birthdayField": "2022-02-22",
+      "LanguagesField": "vdf",
+      "tenthField": "87",
+      "twelthField": "889",
+      "graduationField": "78",
+      "DesignationField": "vbghjhb",
+      "descriptionField": "jvug",
+      "skillsField": "jvhg",
+      "id": 9
+    }
+  ]
+}

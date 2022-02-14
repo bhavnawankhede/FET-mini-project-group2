@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/resumeTemp_4.css" />
+    <script src="../js/resumeTemp_4.js" async defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h2 class="text-center">Fill Your Information</h2>
+    <div class="container commonFont" id="showInformation">
+      <div class="row">
+        <!-- START OF PERSONAL INFORMATON -->
+
+        <div class="col-4">
+          <h3 class="text-center">Personal Information</h3>
+
+          <!-- Start of full name -->
+          <div class="form-group my-2">
+            <label for="nameField">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nameField"
+              placeholder="Enter full name"
+            />
+            <div id="nameErrorDiv"></div>
+          </div>
+          <!-- End of full name -->
+
+          <!-- start of father name -->
+
+          <div class="form-group my-2">
+            <label for="fatherNameField">Father's Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fatherNameField"
+              placeholder="Enter father's name"
+            />
+            <div id="fatherNameErrorDiv"></div>
+          </div>
+
+          <!-- End of father name -->
+
+          <!-- start of address -->
+          <div class="form-group my-3">
+            <label for="addressField">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="addressField"
+              placeholder="Enter Address"
+            />
+            <div id="addressErrorDiv"></div>
+          </div>
+          <!-- End of address -->
+
+          <!-- start of state -->
+
+          <div class="form-group my-3">
+            <label for="stateField">State</label>
+            <input
+              type="text"
+              class="form-control"
+              id="stateField"
+              placeholder="Enter State"
+            />
+            <div id="stateErrorDiv"></div>
+          </div>
+
+          <!-- End of state -->
+
+          <!-- Start of email -->
+
+          <div class="form-group my-3">
+            <label for="emailField">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="emailField"
+              placeholder="Enter Email"
+            />
+            <div id="emailErrorDiv"></div>
+          </div>
+
+          <!-- End of email -->
+
+          <!-- start of age -->
+
+          <div class="form-group my-3">
+            <label for="ageField">Age</label>
+            <input
+              type="text"
+              class="form-control"
+              id="ageField"
+              placeholder="Enter Age"
+            />
+            <div id="ageErrorDiv"></div>
+          </div>
+          <!-- End of age -->
+
+          <!-- Start of birtdate -->
+          <div class="form-group my-3">
+            <label for="birhdayField">Birthday</label>
+            <input
+              type="date"
+              class="form-control"
+              id="birthdayField"
+              placeholder="Enter Address"
+            />
+          </div>
+          <!-- End of Birthdate -->
+
+          <!-- Start of contact -->
+
+          <div class="form-group my-3">
+            <label for="contactField">Mobile Number</label>
+            <input
+              type="mobile"
+              class="form-control"
+              id="contactField"
+              placeholder="Enter Contact"
+            />
+            <div id="contactErrorDiv"></div>
+          </div>
+
+          <!-- End of Contact -->
+
+          <!-- Start of gender -->
+          <div>
+            <label for="genderField">Select Gender</label> <br />
+            <input
+              type="radio"
+              name="gender"
+              id="maleField"
+              value="Male"
+              class="gender"
+            />
+            Male
+            <input
+              type="radio"
+              name="gender"
+              id="femalField"
+              value="Female"
+              class="gender"
+            />Female
+            <div id="genderErrorDiv"></div>
+          </div>
+          <!-- End of gender -->
+
+          <!-- Start of nationality -->
+
+          <div class="form-group my-3">
+            <label for="nationalityField">Nationality</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nationalityField"
+              placeholder="Enter Nationality"
+            />
+            <div id="nationalityErrorDiv"></div>
+          </div>
+
+          <!-- End of Nationality -->
+
+          <!-- start of marital status -->
+          <div class="form-group my-3">
+            <label for="maritalStatusField">Marital Status</label>
+            <input
+              type="text"
+              class="form-control"
+              id="maritalStatusField"
+              placeholder="Enter Marital status"
+            />
+            <div id="maritalStatusErrorDiv"></div>
+          </div>
+          <!-- End of marital status -->
+
+          <!-- Start of hobbies -->
+          <div class="form-group my-3">
+            <label for="hobbyField">Hobbies</label>
+            <input
+              type="text"
+              class="form-control"
+              id="hobbyField"
+              placeholder="Enter hobbies"
+            />
+          </div>
+
+          <!-- End of hobbies -->
+
+          <!-- Start of languages known -->
+
+          <div class="form-group my-3">
+            <label for="languageField">Languages Known</label> <br />
+            <input
+              type="radio"
+              id="languagesField"
+              value="English"
+              class="language languageSelect"
+            />
+            &nbsp; English
+            <input
+              type="radio"
+              id="languagesField"
+              value="Hindi"
+              class="language languageSelect"
+            />
+            &nbsp; Hindi
+            <input
+              type="radio"
+              id="languagesField"
+              value="Marathi"
+              class="language languageSelect"
+            />
+            &nbsp; Marathi
+          </div>
+
+          <!-- End of languages known -->
+        </div>
+
+        <!-- END OF PERSONAL INFORMATION -->
+
+        <!-- START OF EDUCATIONAL DETAILS -->
+
+        <div class="col-4">
+          <h3>Educational Information</h3>
+          <div class="form-group my-3">
+            <label for="tenthField">10th</label>
+            <input type="number" class="form-control" id="tenthField" />
+            <div id="tenthErrorDiv"></div>
+          </div>
+
+          <div class="form-group my-3">
+            <label for="twelthField">12th</label>
+            <input type="number" class="form-control" id="twelthField" />
+            <div id="twelthErrorDiv"></div>
+          </div>
+
+          <div class="form-group my-3">
+            <label for="graduationField">Graduation</label>
+            <input type="number" class="form-control" id="graduationField" />
+            <div id="graduationErrorDiv"></div>
+          </div>
+
+          <div class="form-group my-3">
+            <label for="postgraduationField"
+              >Post Graduation(if applicable)</label
+            >
+            <input type="number" class="form-control" />
+          </div>
+        </div>
+
+        <!-- END OF EDUCATIONAL QUALIFICATION -->
+
+        <!-- START OF WORK EXPERIENCE -->
+
+        <div class="col-4">
+          <h3 class="text-center">Work Qualification</h3>
+          <div class="form-group my-3">
+            <label for="objectiveField">Objective</label>
+            <textarea
+              name=""
+              id="objectiveField"
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- END OF WORK EXPERIENCE -->
+      </div>
+
+      <div class="container text-center my-3">
+        <button onclick="generateCV()" class="btn btn-primary btn-lg">
+          Generate Resume
+        </button>
+      </div>
+    </div>
+
+    <!-- START OF TEMPLATE -->
+
+    <div id="show">
+      <div class="container resume">
+        <h1 class="text-center">Resume</h1>
+        <div class="row my-3">
+          <div class="col-md-6">
+            <p><b>Name:</b></p>
+            <p id="nameT"></p>
+            <p><b>Address:</b></p>
+            <p id="addressT"></p>
+            <p><b>State:</b></p>
+            <p id="stateT"></p>
+            <p><b>Email:</b></p>
+            <p id="emailT"></p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-12">
+            <h3 class="p-3 mb-2 bg-secondary text-white">Career Objective :</h3>
+            <p id="objectiveT">-</p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <h3 class="p-3 mb-2 bg-secondary text-white">Personal Profile</h3>
+          <div class="col-md-6">
+            <p class="para"><b>Father's Name</b> <span>:</span></p>
+            <p class="para"><b>Date of birth</b> <span>:</span></p>
+            <p class="para"><b>Marital Status</b> <span>:</span></p>
+            <p class="para"><b>Nationality</b> <span>:</span></p>
+            <p class="para"><b>Mobile</b> <span>:</span></p>
+            <p class="para"><b>Gender</b> <span>:</span></p>
+            <p class="para"><b>Age</b> <span>:</span></p>
+          </div>
+
+          <div class="col-md-6">
+            <p id="fatherT" class="para">-</p>
+            <p id="birthdayT" class="para">-</p>
+            <p id="maritalT" class="para">-</p>
+            <p id="nationalityT" class="para">-</p>
+            <p id="contactT" class="para">-</p>
+            <p id="genderT" class="para">-</p>
+            <p id="ageT" class="para">-</p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <h3 class="p-3 mb-2 bg-secondary text-white">
+            Educational Qualification
+          </h3>
+          <table class="table table-light table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Sr No.</th>
+                <th scope="col">Standard</th>
+                <th scope="col">Marks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>10th</td>
+                <td id="tenthT">-</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>12th</td>
+                <td id="twelthT">-</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Graduation</td>
+                <td id="graduationT">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <hr style="height: 5px; color: black; background-color: black" />
+
+        <div class="row my-2">
+          <div class="col-md-12">
+            <p><b>Languages Known:</b></p>
+            <p id="lenguagesT"></p>
+          </div>
+        </div>
+
+        <div class="row my-2">
+          <div class="col-md-12">
+            <p><b>Hobbies:</b></p>
+            <p id="hobbyT"></p>
+          </div>
+        </div>
+      </div>
+
+      <center>
+        <div id="btn">
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="printForm(); clickCounter4()"
+          >
+            Download
+          </button>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
