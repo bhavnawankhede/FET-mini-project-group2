@@ -1,0 +1,41 @@
+
+#header{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background-color: black;
+    color: white;
+}
+
+
+/* #image{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+} */
+
+#underline{
+    width: 215px;
+    height: 5px;
+    background: #CECED0;
+}
+#prs{
+    background-color: rgb(125, 125, 199);
+    padding: 5px;
+    
+}
+
+#cro{
+    background-color:  rgb(83, 83, 187);
+    padding: 10px;
+    color: white;
+}
+
+#show{
+
+    display: none;
+}
+
+
+
